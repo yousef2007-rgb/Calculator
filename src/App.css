@@ -1,0 +1,322 @@
+@charset "UTF-8";
+.App {
+  font-family: 'Spartan', sans-serif;
+  font-size: 32px;
+  background-color: #3a4764;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div h6 {
+  margin: 0;
+}
+
+.themeSlide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.calc {
+  color: white;
+}
+
+.slide {
+  background-color: #232c43;
+  width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.slider2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.slider3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.sliderRed {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.mainBody {
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.mainBody p {
+  background-color: #182034;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  overflow-x: hidden;
+  height: 50px;
+}
+
+.numbersButtons {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  /*  Change the values     👇 to experiment */
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.numbersButtons a {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #eae3dc;
+  -webkit-box-shadow: 0px 5px #b4a597;
+          box-shadow: 0px 5px #b4a597;
+  text-align: center;
+}
+
+.oparationsButtons {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  /*  Change the values     👇 to experiment */
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.oparationsButtons a {
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.resetButton {
+  background-color: #637097;
+  color: white;
+  -webkit-box-shadow: 0px 5px #404e72;
+          box-shadow: 0px 5px #404e72;
+}
+
+.equalButton {
+  background-color: #d03f2f;
+  -webkit-box-shadow: 0px 5px #93261a;
+          box-shadow: 0px 5px #93261a;
+  color: white;
+}
+
+#DELbutton {
+  background-color: #637097;
+  color: white;
+  -webkit-box-shadow: 0px 5px #404e72;
+          box-shadow: 0px 5px #404e72;
+}
+
+.keys {
+  background-color: #232c43;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.AppTheme2 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 32px;
+  background-color: #e6e6e6;
+}
+
+.slideTheme2 {
+  background-color: #d1cccc;
+  width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainBodyTheme2 {
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.mainBodyTheme2 p {
+  background-color: #ededed;
+  padding: 20px;
+  border-radius: 15px;
+  color: black;
+  overflow-x: hidden;
+  height: 50px;
+}
+
+.keysTheme2 {
+  background-color: #d1cccc;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.numbersButtonsTheme2 {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  /*  Change the values     👇 to experiment */
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.numbersButtonsTheme2 a {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #eae3dc;
+  -webkit-box-shadow: 0px 5px #b4a597;
+          box-shadow: 0px 5px #b4a597;
+  text-align: center;
+}
+
+.resetButtonTheme2 {
+  background-color: #377f86;
+  color: white;
+  -webkit-box-shadow: 0px 5px #1b5f65;
+          box-shadow: 0px 5px #1b5f65;
+}
+
+.equalButtonTheme2 {
+  background-color: #ca5502;
+  -webkit-box-shadow: 0px 5px #893901;
+          box-shadow: 0px 5px #893901;
+  color: white;
+}
+
+#DELbuttonTheme2 {
+  background-color: #377f86;
+  color: white;
+  -webkit-box-shadow: 0px 5px #1b5f65;
+          box-shadow: 0px 5px #1b5f65;
+}
+
+.calcTheme2 {
+  color: black;
+}
+
+.AppTheme3 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 32px;
+  background-color: #160628;
+}
+
+.slideTheme3 {
+  background-color: #1d0934;
+  width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calcTheme3 {
+  color: #ffe53d;
+}
+
+.mainBodyTheme3 {
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.mainBodyTheme3 p {
+  background-color: #1d0934;
+  padding: 20px;
+  border-radius: 15px;
+  color: #ffe53d;
+  overflow-x: hidden;
+  height: 50px;
+}
+
+.keysTheme3 {
+  background-color: #1d0934;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.numbersButtonsTheme3 {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  /*  Change the values     👇 to experiment */
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.numbersButtonsTheme3 a {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #58077d;
+  -webkit-box-shadow: 0px 5px #bc15f4;
+          box-shadow: 0px 5px #bc15f4;
+  color: #ffe53d;
+  text-align: center;
+}
+
+.resetButtonTheme3 {
+  background-color: #341c4f;
+  color: white;
+  -webkit-box-shadow: 0px 5px #871c9c;
+          box-shadow: 0px 5px #871c9c;
+}
+
+.equalButtonTheme3 {
+  background-color: #00e0d1;
+  -webkit-box-shadow: 0px 5px #6cf9f2;
+          box-shadow: 0px 5px #6cf9f2;
+  color: white;
+}
+
+#DELbuttonTheme3 {
+  background-color: #341c4f;
+  color: white;
+  -webkit-box-shadow: 0px 5px #871c9c;
+          box-shadow: 0px 5px #871c9c;
+}
+/*# sourceMappingURL=App.css.map */
